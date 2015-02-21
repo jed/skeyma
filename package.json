@@ -1,0 +1,20 @@
+{
+  "name": "skeyma",
+  "version": "1.0.0",
+  "description": "A parser & serializer for {key, value} objects & streams",
+  "main": "lib/skeyma.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "npm run build && node lib/test.js",
+    "prepublish": "npm run build"
+  },
+  "author": "Jed Schmidt (http://jed.is)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^4.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jed/skeyma.git"
+  }
+}
