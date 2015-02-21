@@ -16,5 +16,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jed/skeyma.git"
-  }
+  },
+  "keywords": [
+    "levelup",
+    "leveldb",
+    "objectMode",
+    "kv",
+    "streams"
+  ]
 }
