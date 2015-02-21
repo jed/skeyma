@@ -1,6 +1,8 @@
 skeyma
 ======
 
+[![Build Status](https://travis-ci.org/jed/skeyma.svg?branch=master)](https://travis-ci.org/jed/skeyma)
+
 skeyma is a JavaScript parser & serializer for `{key, value}` objects & streams. It's useful for storing and retreiving [levelup][] object streams.
 
 Examples
