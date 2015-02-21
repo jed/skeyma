@@ -1,7 +1,7 @@
 {
   "name": "skeyma",
   "version": "1.0.0",
-  "description": "A parser & serializer for {key, value} objects & streams",
+  "description": "A JavaScript parser & serializer for {key, value} objects & streams",
   "main": "lib/skeyma.js",
   "scripts": {
     "build": "babel src --out-dir lib",
