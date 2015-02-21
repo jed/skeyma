@@ -40,9 +40,9 @@ const objects = Readable({objectMode: true})
 objects.push(object)
 objects.push(null)
 
-objects.on("data", console.log)
-  .pipe(serialize()).on("data", console.log)
-  .pipe(parse()).on("data", console.log)
+objects              .on("data", console.log)
+  .pipe(serialize()) .on("data", console.log)
+  .pipe(parse())     .on("data", console.log)
 
 // { text: 'Hello.', forumId: '1', postId: '2', commentId: '3' }
 // { key: '1/2/3', value: { text: 'Hello.' } }
